@@ -15,9 +15,9 @@ Useful scripts when working with source control (mostly `svn`, but also `git`) f
 ## Env Variables
 
  * `$SCM_SCRIPTS_BASE` -- Directory which holds these scripts and their resources. Set this when you want to alias the scripts to some other path.
+ * `$TRAC_HOST` -- Defualt hostname used by `trac.sh` to open a working copy in your browser.
  * `$SVN_KEYWORD_FILE` -- File containing default keywords to set with `svnkey.sh`. Defaults to `$SCM_SCRIPTS_BASE/keywords.txt`.
  * `$SVN_UP_PROJECTS` -- Default directory to use for `svnup.sh` when none is specified.
- * `$TRAC_HOST` -- Defualt hostname used by `trac.sh` to open a working copy in your browser.
 
 
 ## Feedback
